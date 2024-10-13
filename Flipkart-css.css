@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color:  #f8f9fa;
+}
+
+.navbar {
+    height: 60px;
+    padding: 32px;
+    background-color:  white;
+    color: #011313;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 4px;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.logo {
+    background-image: url(Flipkart-Logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+/* search box */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  #f8f9fa;
+    height: 40px;
+    border-radius: 4px;
+    width: 790px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color:  #87acac;
+    padding-left: 12px;
+    border-radius: 9px;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color:  #f8f9fa;
+    border: none;
+    border-radius: 9px;
+}
+
+/* panel */
+.panel {
+    height: 140px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1rem;
+}
+
+.panel a {
+    padding-top: 35px;
+    margin-top: 25px;
+    font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #011313;
+    font-weight: bold;
+    display: block;
+} 
+
+.box-1_ {
+    background-image: url(box-1.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-2_ {
+    background-image: url(box-2.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-3_ {
+    background-image: url(box-3.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-4_ {
+    background-image: url(box-4.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-5_ {
+    background-image: url(box-5.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-6_ {
+    background-image: url(box-6.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-7_ {
+    background-image: url(box-7.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-8_ {
+    background-image: url(box-8.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-9_ {
+    background-image: url(box-9.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+.box-10_ {
+    background-image: url(box-10.jpeg);
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    padding: 16px;
+    margin-bottom: 75px;
+}
+
+/* hero image */
+.hero-section {
+    background-image: url("hero.webp");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 15px;
+}
+
+.box-a {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 98%;
+    height: 280px;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+
+.boxaa {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxab {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxac {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.box-b {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 98%;
+    height: 280px;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+
+.boxba {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxbb {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxbc {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.box-c {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 98%;
+    height: 280px;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+
+.boxca {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxcb {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxcc {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.box-d {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 98%;
+    height: 280px;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+
+.boxda {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxdb {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+.boxdc {
+    width: 480px;
+    height: 280px;
+    background-size: cover;
+}
+
+/* FOOTER */
+.foot-panel1 {
+    background-color: #152336;
+    color:#878787;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0 solid black;
+    box-sizing: border-box;
+    align-items: center;
+    flex-shrink: 0;
+    list-style: none;
+}
+
+.foot-panel1 p {
+    margin: 0px 0px 16px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel2 {
+    background-color: #152336;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-top: 0.5px solid rgb(140, 138, 138);
+    padding: 25px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.pages a {
+    color: #dddddd;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 70px;
+}
+
+.lastpanel {
+    margin: 25px;
+}
